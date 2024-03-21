@@ -11,7 +11,8 @@ public class PrintStudents
 						 	   Database.students.get(i).getClassName2() + " " +
 						 	   Database.students.get(i).getClassGrade2() + " " +
 						 	   Database.students.get(i).getClassName3() + " " +
-						 	   Database.students.get(i).getClassGrade3());
+						 	   Database.students.get(i).getClassGrade3() + " " +
+						 	   Database.students.get(i).getGPA());
 			System.out.println(" ");
 			}
 		}
